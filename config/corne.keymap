@@ -13,29 +13,65 @@
         compatible = "zmk,combos";
 
         esc {
-            bindings = <&kp ESC>;
-            key-positions = <19 20 21>;
-            layers = <0>;
+            bindings = <&mt LCTRL ESC>;
+            key-positions = <12>;
+            layers = <0 2 1>;
         };
 
         hrm-lshift {
             bindings = <&mt LEFT_SHIFT D>;
             key-positions = <15>;
+            timeout-ms = <120>;
+            layers = <0>;
         };
 
         hrm-lctrl {
             bindings = <&mt LCTRL F>;
             key-positions = <16>;
+            layers = <0>;
+            timeout-ms = <150>;
         };
 
         hrm-lalt {
             bindings = <&mt LEFT_ALT S>;
             key-positions = <14>;
+            timeout-ms = <150>;
+            layers = <0>;
         };
 
         hrm-lgui {
             bindings = <&mt LEFT_GUI A>;
             key-positions = <13>;
+            timeout-ms = <150>;
+            layers = <0>;
+        };
+
+        hrm-rshift {
+            bindings = <&mt RSHIFT K>;
+            key-positions = <20>;
+            timeout-ms = <120>;
+            layers = <0>;
+        };
+
+        hrm-rctrl {
+            bindings = <&mt RCTRL J>;
+            key-positions = <19>;
+            timeout-ms = <150>;
+            layers = <0>;
+        };
+
+        hrm-ralt {
+            bindings = <&mt RALT L>;
+            key-positions = <21>;
+            timeout-ms = <150>;
+            layers = <0>;
+        };
+
+        hrm-rgui {
+            bindings = <&mt RGUI SEMICOLON>;
+            key-positions = <22>;
+            timeout-ms = <150>;
+            layers = <0>;
         };
     };
 
