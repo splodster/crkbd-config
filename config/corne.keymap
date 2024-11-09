@@ -19,8 +19,8 @@
         };
 
         hrm-lshift {
-            bindings = <&mt LEFT_SHIFT D>;
-            key-positions = <15>;
+            bindings = <&mt LEFT_SHIFT SPACE>;
+            key-positions = <38>;
             timeout-ms = <120>;
             layers = <0>;
         };
@@ -33,22 +33,22 @@
         };
 
         hrm-lalt {
-            bindings = <&mt LEFT_ALT S>;
-            key-positions = <14>;
+            bindings = <&mt LEFT_ALT D>;
+            key-positions = <15>;
             timeout-ms = <150>;
             layers = <0>;
         };
 
         hrm-lgui {
-            bindings = <&mt LEFT_GUI A>;
-            key-positions = <13>;
+            bindings = <&mt LEFT_GUI S>;
+            key-positions = <14>;
             timeout-ms = <150>;
             layers = <0>;
         };
 
         hrm-rshift {
-            bindings = <&mt RSHIFT K>;
-            key-positions = <20>;
+            bindings = <&mt RSHIFT ENTER>;
+            key-positions = <39>;
             timeout-ms = <120>;
             layers = <0>;
         };
@@ -61,14 +61,14 @@
         };
 
         hrm-ralt {
-            bindings = <&mt RALT L>;
+            bindings = <&mt RALT K>;
             key-positions = <21>;
             timeout-ms = <150>;
             layers = <0>;
         };
 
         hrm-rgui {
-            bindings = <&mt RGUI SEMICOLON>;
+            bindings = <&mt RGUI L>;
             key-positions = <22>;
             timeout-ms = <150>;
             layers = <0>;
