@@ -17,6 +17,26 @@
             key-positions = <19 20 21>;
             layers = <0>;
         };
+
+        hrm-lshift {
+            bindings = <&mt LEFT_SHIFT D>;
+            key-positions = <15>;
+        };
+
+        hrm-lctrl {
+            bindings = <&mt LCTRL F>;
+            key-positions = <16>;
+        };
+
+        hrm-lalt {
+            bindings = <&mt LEFT_ALT S>;
+            key-positions = <14>;
+        };
+
+        hrm-lgui {
+            bindings = <&mt LEFT_GUI A>;
+            key-positions = <13>;
+        };
     };
 
     keymap {
