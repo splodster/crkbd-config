@@ -62,14 +62,14 @@
 
         hrm-ralt {
             bindings = <&mt RALT K>;
-            key-positions = <21>;
+            key-positions = <20>;
             timeout-ms = <150>;
             layers = <0>;
         };
 
         hrm-rgui {
             bindings = <&mt RGUI L>;
-            key-positions = <22>;
+            key-positions = <21>;
             timeout-ms = <150>;
             layers = <0>;
         };
